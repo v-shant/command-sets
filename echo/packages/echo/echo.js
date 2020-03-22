@@ -5,7 +5,7 @@ async function _command(params, text, secrets = {}) {
 
   return {
     response_type: 'in_channel', // or `ephemeral` for private response
-    text: msg
+    text: msg + ": echo updated text appended"
   };
 }
 
